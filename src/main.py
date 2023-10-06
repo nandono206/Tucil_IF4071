@@ -22,3 +22,6 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
         print(mfcc_feat.shape)
         template.append([file_name[:-4],mfcc_feat])
         print(mfcc_feat.shape)
+
+print("###############")
+print(template[7][0])
